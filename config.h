@@ -19,7 +19,6 @@
 // Define blocks for the status feed as X(cmd, interval, signal).
 #define BLOCKS(X)         \
     X("sb-music", 10, 1)   \
-    X("sb-forecast", 1800, 2) \
     X("sb-disk", 1800, 3) \
     X("sb-memory", 10, 4) \
     X("sb-volume", 0, 5)  \
